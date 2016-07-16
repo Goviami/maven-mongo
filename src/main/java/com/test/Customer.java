@@ -39,8 +39,8 @@ public class Customer {
     @Override
     public String toString() {
         return String.format(
-                "Customer[id=%s, firstName='%s', lastName='%s']",
-                id, firstName, lastName);
+                "Customer[id=%s, firstName='%s', lastName='%s', jonNam=%s, salary=%s]",
+                id, firstName, jobName, lastName, salary);
     }
 
 	public String getJobName() {

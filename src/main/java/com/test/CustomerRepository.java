@@ -10,4 +10,5 @@ public interface CustomerRepository extends MongoRepository<Customer, String> {
     public List<Customer> findByLastName(String lastName);
     public List<Customer> findByJobName(String jobName);
     public List<Customer> findBySalary(double salary);
+    public List<Customer> findBySalaryLessThan(double salary);
 }
